@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
 
-
 body {
   margin: 0;
   transition: transform 0.3s ease;
@@ -12,14 +11,13 @@ body.show-nav {
   transform: translateX(-90vw);
 }
 
-
 body.stella {
-    /* Width of nav */
-    transform: translateX(-90vw);
-  }
+  /* Width of nav */
+  transform: translateX(-90vw);
+}
 
-nav{
-  background-color:cadetblue;
+nav {
+  background-color: cadetblue;
   border-right: 2px solid rgba(200, 200, 200, 0.1);
   color: #fff;
   position: fixed;
@@ -31,165 +29,161 @@ nav{
   transform: translateX(100%);
 }
 
-
-
-
 .list {
-    position: fixed;
-    width: 10%;
-    left: 90%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  .python {
-    width: 25%;
-    left: 90%;
-    height: 110vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: cadetblue;
-    writing-mode: vertical-rl;
-    
+  position: fixed;
+  width: 10%;
+  left: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
+.python {
+  width: 25%;
+  left: 90%;
+  height: 110vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  writing-mode: vertical-rl;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
 
-  .likelion {
-    width: 25%;
-    left: 90%;
-    height: 110vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: darksalmon;
-    writing-mode: vertical-rl;
-  }
-  
-  .DB {
-    width: 25%;
-    left: 90%;
-    height: 110vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: cornflowerblue;
-    writing-mode: vertical-rl;
-  }
-  
-  .Java {
-    width: 25%;
-    left: 90%;
-    height: 110vh;
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: crimson;
-    writing-mode: vertical-rl;
-  }
+.likelion {
+  width: 25%;
+  left: 90%;
+  height: 110vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: darksalmon;
+  writing-mode: vertical-rl;
+
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+.DB {
+  width: 25%;
+  left: 90%;
+  height: 110vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  writing-mode: vertical-rl;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+.Java {
+  width: 25%;
+  left: 90%;
+  height: 110vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+  writing-mode: vertical-rl;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
 .toggle {
-    all: unset;
+  all: unset;
   position: absolute;
   z-index: 111;
 }
 
 .fullscreen-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  .fullscreen-video > video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -2;
-  }
-  .header {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-  
-    align-items: center;
-    position: fixed;
-    width: 90vw;
-    z-index: 10;
-    height: 10vh;
-  }
-  
-  .header > a {
-    all: unset;
-    font-family: "Noto Sans", sans-serif;
-    color: black;
-    font-size: 25px;
-  }
-  
-  .header__logo > a {
-    all: unset;
-    font-family: "Patua One", cursive;
-    color: black;
-    font-size: 33px;
-  }
-  .maincontent {
-    
-    position: absolute;
-    width: 90vw;
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-  
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .maincontent > h1 {
-    
-    all: unset;
-    font-family: "Noto Sans", sans-serif;
-    color: black;
-    font-size: 48px;
-    
-    letter-spacing: 1px;
-    text-align: center;
-  }
-  .gobutton{
-  
-    margin-top: 3%;
-    display: flex;
-    flex-direction: row;
-   
-  
-  
-  }
-  .gobutton > a {
-    all: unset;
-    padding: 10px 30px;
-    border-radius: 2px;
-    margin: 0 30px;
-    border: 2px solid black;
-    width: 70px;
-    text-align: center;
-  
-    font-family: "Noto Sans", sans-serif;
-    transition: background-color 1s, box-shadow 1s;
-  
-    cursor: pointer;
-    color: black;
-  }
-  
-  .gobutton > a:hover {
-    background-color: #dae0df;
-    box-shadow: 0px 0px 6px rgba(44, 44, 44, 0.3);
-  }
-  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.fullscreen-video > video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+}
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  position: fixed;
+  width: 90vw;
+  z-index: 10;
+  height: 10vh;
+}
+
+.header > a {
+  all: unset;
+  font-family: "Noto Sans", sans-serif;
+  color: black;
+  font-size: 25px;
+}
+
+.header__logo > a {
+  all: unset;
+  font-family: "Patua One", cursive;
+  color: black;
+  font-size: 33px;
+}
+.maincontent {
+  position: absolute;
+  width: 90vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontent > h1 {
+  all: unset;
+  font-family: "Noto Sans", sans-serif;
+  color: black;
+  font-size: 48px;
+
+  letter-spacing: 1px;
+  text-align: center;
+}
+.gobutton {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+.gobutton > a {
+  all: unset;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 0 30px;
+  border: 2px solid black;
+  width: 70px;
+  text-align: center;
+
+  font-family: "Noto Sans", sans-serif;
+  transition: background-color 1s, box-shadow 1s;
+
+  cursor: pointer;
+  color: black;
+}
+
+.gobutton > a:hover {
+  background-color: #dae0df;
+  box-shadow: 0px 0px 6px rgba(44, 44, 44, 0.3);
+}
