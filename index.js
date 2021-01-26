@@ -5,17 +5,17 @@ const open3 = document.querySelector('.Java');
 
 // Toggle nav
 open.addEventListener('click', () =>
-  document.body.classList.toggle('show-nav')
+  document.body.classList.toggle('show-open')
 );
 
 open1.addEventListener('click', () =>
-  document.body.classList.toggle('stella')
+  document.body.classList.toggle('show-open1')
 );
 
 open2.addEventListener('click', () =>
-  document.body.classList.toggle('show-nav')
+  document.body.classList.toggle('show-open2')
 );
 
 open3.addEventListener('click', () =>
-  document.body.classList.toggle('show-nav')
+  document.body.classList.toggle('show-open3')
 );
